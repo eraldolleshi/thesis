@@ -1,0 +1,3 @@
+/home/eraldo/bsim/components/ext_2G4_phy_v1/src/cmake-build-debug/CMakeFiles/src.dir
+/home/eraldo/bsim/components/ext_2G4_phy_v1/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/eraldo/bsim/components/ext_2G4_phy_v1/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir

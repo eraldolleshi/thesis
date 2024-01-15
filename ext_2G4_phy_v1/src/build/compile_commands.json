@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/build",
+  "command": "/usr/bin/gcc -I/home/eraldo/bsim/components/ext_2G4_phy_v1/src/. -g -std=gnu11 -o CMakeFiles/src.dir/p2G4_args.c.o -c /home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_args.c",
+  "file": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_args.c",
+  "output": "CMakeFiles/src.dir/p2G4_args.c.o"
+},
+{
+  "directory": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/build",
+  "command": "/usr/bin/gcc -I/home/eraldo/bsim/components/ext_2G4_phy_v1/src/. -g -std=gnu11 -o CMakeFiles/src.dir/p2G4_channel_and_modem.c.o -c /home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_channel_and_modem.c",
+  "file": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_channel_and_modem.c",
+  "output": "CMakeFiles/src.dir/p2G4_channel_and_modem.c.o"
+},
+{
+  "directory": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/build",
+  "command": "/usr/bin/gcc -I/home/eraldo/bsim/components/ext_2G4_phy_v1/src/. -g -std=gnu11 -o CMakeFiles/src.dir/p2G4_com.c.o -c /home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_com.c",
+  "file": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_com.c",
+  "output": "CMakeFiles/src.dir/p2G4_com.c.o"
+},
+{
+  "directory": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/build",
+  "command": "/usr/bin/gcc -I/home/eraldo/bsim/components/ext_2G4_phy_v1/src/. -g -std=gnu11 -o CMakeFiles/src.dir/p2G4_dump.c.o -c /home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_dump.c",
+  "file": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_dump.c",
+  "output": "CMakeFiles/src.dir/p2G4_dump.c.o"
+},
+{
+  "directory": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/build",
+  "command": "/usr/bin/gcc -I/home/eraldo/bsim/components/ext_2G4_phy_v1/src/. -g -std=gnu11 -o CMakeFiles/src.dir/p2G4_func_queue.c.o -c /home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_func_queue.c",
+  "file": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_func_queue.c",
+  "output": "CMakeFiles/src.dir/p2G4_func_queue.c.o"
+},
+{
+  "directory": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/build",
+  "command": "/usr/bin/gcc -I/home/eraldo/bsim/components/ext_2G4_phy_v1/src/. -g -std=gnu11 -o CMakeFiles/src.dir/p2G4_main.c.o -c /home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_main.c",
+  "file": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_main.c",
+  "output": "CMakeFiles/src.dir/p2G4_main.c.o"
+},
+{
+  "directory": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/build",
+  "command": "/usr/bin/gcc -I/home/eraldo/bsim/components/ext_2G4_phy_v1/src/. -g -std=gnu11 -o CMakeFiles/src.dir/p2G4_pending_tx_list.c.o -c /home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_pending_tx_list.c",
+  "file": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_pending_tx_list.c",
+  "output": "CMakeFiles/src.dir/p2G4_pending_tx_list.c.o"
+},
+{
+  "directory": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/build",
+  "command": "/usr/bin/gcc -I/home/eraldo/bsim/components/ext_2G4_phy_v1/src/. -g -std=gnu11 -o CMakeFiles/src.dir/p2G4_v1_v2_remap.c.o -c /home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_v1_v2_remap.c",
+  "file": "/home/eraldo/bsim/components/ext_2G4_phy_v1/src/p2G4_v1_v2_remap.c",
+  "output": "CMakeFiles/src.dir/p2G4_v1_v2_remap.c.o"
+}
+]
