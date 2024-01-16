@@ -10,4 +10,4 @@ The benchmark class is an abstract class which shows the attributes and method t
 
 Run the main.py file to start the execution of the pipeline. Set the benchmark name using this format: {dataset name}_{ML model name}. For example, to run Random Forest for MNIST dataset, set the benchmark name as "mnist_rf". The different settings, such as the values of Bit Error   Rate injected in the test and training samples, error injection scenario, bit error type, replacement value for the lost bytes, are set at the plotting task.
 
-![Pipeline structure](luigi tasks.jpg)
+![alt text](https://github.com/eraldolleshi/thesis/blob/main/luigi tasks.jpg.jpg?raw=true)
