@@ -44,7 +44,7 @@ class HgrApplication(Benchmark):
         return pd.DataFrame(data_list)
 
     def reconstruct_test_dataset(self, path_to_binary_file):
-        test_data = pd.read_csv("emg_test_labels.csv",header=None)
+        test_data = pd.read_csv("emg/emg_test_labels.csv",header=None)
         
         y_test = test_data.values
         
@@ -57,7 +57,7 @@ class HgrApplication(Benchmark):
         return labels
 
     def reconstruct_training_dataset(self, path_to_binary_file): 
-        train_data = pd.read_csv("emg_train_labels.csv",header=None)
+        train_data = pd.read_csv("emg/emg_train_labels.csv",header=None)
        # train_data= pd.concat([train_data] * 5, ignore_index=True)
         y_train = train_data.iloc[:,:]
         
