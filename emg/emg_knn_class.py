@@ -1,21 +1,18 @@
-
-
-from sklearn.svm import LinearSVC
-
-
+from sklearn.neighbors import KNeighborsClassifier
 from benchmark_class import Benchmark
 from emg_class import HgrApplication
 
-class Hgr_SVM(HgrApplication):
+class Hgr_KNN(HgrApplication):
     def __init__(self):
         super().__init__()  # Call the parent class initialization
         
-        self.model_name = "svm" 
+        self.model_name = "knn" 
 
 
     def run_training(self, x_train, y_train):
-        
-           model = LinearSVC(C=1.0, random_state=42)
+           model = KNeighborsClassifier(n_neighbors=3) 
+
+
            model.fit(x_train, y_train)
            return model
              
@@ -26,4 +23,4 @@ class Hgr_SVM(HgrApplication):
     
 
 
-Benchmark.benchmark_classes["emg_svm"] = Hgr_SVM
+Benchmark.benchmark_classes["emg_knn"] = Hgr_KNN

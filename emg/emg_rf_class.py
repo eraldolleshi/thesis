@@ -1,14 +1,4 @@
-
-import tensorflow as tf
-import struct
-import pandas as pd
-import numpy as np
-from sklearn.preprocessing import LabelEncoder
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, SimpleRNN
 from sklearn.ensemble import RandomForestClassifier
-
-
 from benchmark_class import Benchmark
 from emg_class import HgrApplication
 

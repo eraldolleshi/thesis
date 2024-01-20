@@ -1,10 +1,6 @@
-import tensorflow as tf
 import struct
 import pandas as pd
-import numpy as np
 from sklearn.preprocessing import LabelEncoder
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, SimpleRNN
 import joblib
 from joblib import dump,load
 
@@ -15,16 +11,16 @@ from benchmark_class import Benchmark
 class HgrApplication(Benchmark):
     def __init__(self):
         super().__init__(
-            "emg",
-            "emg_nn",
-            "input_datasets/emg_train.bin",  
-            "input_datasets/emg_test.bin",
-            64,
-            2000,
-            7000,
-            -128,
-             0,
-             127, #TODO check simulation length since sending the training dataset takes much longer
+            application_name="emg",
+            model_name="nn",
+            path_to_train_dataset="input_datasets/emg_train.bin",
+            path_to_test_dataset="input_datasets/emg_test.bin",
+            sample_size=64,
+            test_simulation_length=2000,
+            train_simulation_length=7000,
+            filler_value_min=-128,
+            filler_value_average=0,
+            filler_value_max=127 #check simulation length since sending the training dataset takes much longer
         )
 
     def _reconstruct(self, path_to_binary_file):
@@ -71,7 +67,6 @@ class HgrApplication(Benchmark):
         pass
 
     def save_model(self, model, path_where_to_save_model):
-       # model.save(path_where_to_save_model)
         joblib.dump(model,path_where_to_save_model)
         return model
 

@@ -1,12 +1,7 @@
 
 import tensorflow as tf
-import struct
-import pandas as pd
 import numpy as np
-from sklearn.preprocessing import LabelEncoder
-from keras.models import Sequential
-from keras.layers import Dense, Dropout
-from tensorflow.keras.models import Sequential
+from keras.layers import Dense
 from tensorflow.keras.layers import Dense
 
 
@@ -21,15 +16,13 @@ class Hdr_NN(HandwrittenDigitClassificationApplication):
 
 
     def run_training(self, x_train, y_train):
-      # Instantiate the model.
+        # Instantiate the model.
         model = tf.keras.Sequential()
  
-# Build the model. 
+        # Build the model. 
         model.add(Dense(128, activation='relu', input_shape=(784,)))
         model.add(Dense(128, activation='relu'))
         model.add(Dense(10,  activation="softmax"))
- 
-# Display the model summary.
         
         model.compile(optimizer="rmsprop",
               loss="sparse_categorical_crossentropy",
